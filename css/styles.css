@@ -601,8 +601,7 @@ img {
 .description {
   position: absolute;
   top: 0px;
-  opacity: 0;
-  display: flex;
+  display: block;
   margin: 0px;
   padding-left: 24px;
   padding-right: 24px;
@@ -619,7 +618,6 @@ img {
 .main-card:hover .description,
 .main-card:focus .description {
   transform: translateY(0%);
-  opacity: 1;
 }
 .category {
   margin-top: 0px;
