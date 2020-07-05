@@ -601,7 +601,7 @@ img {
 .description {
   position: absolute;
   top: 0px;
-  display: block;
+  display: flex;
   margin: 0px;
   padding-left: 24px;
   padding-right: 24px;
